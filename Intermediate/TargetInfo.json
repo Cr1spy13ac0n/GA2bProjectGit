@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "JellyBPIteration",
+			"Path": "D:\\AlfieAylett\\GA2bProjectGit\\Source\\JellyBPIteration.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "JellyBPIterationEditor",
+			"Path": "D:\\AlfieAylett\\GA2bProjectGit\\Source\\JellyBPIterationEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
