@@ -1,3 +1,15 @@
+<<<<<<< HEAD
 2023/05/10-14:09:28.826 4258 Reusing MANIFEST C:/Users/Joe/Documents/GitHub/GA2bProjectGit/Saved/webcache_4147\Local Storage\leveldb/MANIFEST-000001
 2023/05/10-14:09:28.832 4258 Recovering log #3
 2023/05/10-14:09:28.833 4258 Reusing old log C:/Users/Joe/Documents/GitHub/GA2bProjectGit/Saved/webcache_4147\Local Storage\leveldb/000003.log 
+=======
+<<<<<<< HEAD
+2023/05/07-04:20:55.391 51c8 Reusing MANIFEST C:/Users/Joe/Documents/GitHub/GA2bProjectGit/Saved/webcache_4147\Local Storage\leveldb/MANIFEST-000001
+2023/05/07-04:20:55.391 51c8 Recovering log #3
+2023/05/07-04:20:55.392 51c8 Reusing old log C:/Users/Joe/Documents/GitHub/GA2bProjectGit/Saved/webcache_4147\Local Storage\leveldb/000003.log 
+=======
+2023/05/10-14:09:28.826 4258 Reusing MANIFEST C:/Users/Joe/Documents/GitHub/GA2bProjectGit/Saved/webcache_4147\Local Storage\leveldb/MANIFEST-000001
+2023/05/10-14:09:28.832 4258 Recovering log #3
+2023/05/10-14:09:28.833 4258 Reusing old log C:/Users/Joe/Documents/GitHub/GA2bProjectGit/Saved/webcache_4147\Local Storage\leveldb/000003.log 
+>>>>>>> main
+>>>>>>> Kai-New

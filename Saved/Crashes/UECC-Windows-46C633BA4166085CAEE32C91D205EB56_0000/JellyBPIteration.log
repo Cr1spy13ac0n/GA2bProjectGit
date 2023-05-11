@@ -1,0 +1,995 @@
+﻿Log file open, 05/03/23 12:03:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=11436)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: JellyBPIteration
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" D:/Github/GA2bProjectGit/JellyBPIteration.uproject""
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (22H2) [10.0.22621.1555] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="0ffdf3da4ed39c0d119bceba9492c208"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.313722
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-46C633BA4166085CAEE32C91D205EB56
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading HoloLens ini files took 0.03 seconds
+LogConfig: Display: Loading IOS ini files took 0.06 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogConfig: Display: Loading Android ini files took 0.07 seconds
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogConfig: Display: Loading Linux ini files took 0.08 seconds
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogConfig: Display: Loading LinuxArm64 ini files took 0.08 seconds
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogConfig: Display: Loading Unix ini files took 0.05 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.03 seconds
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogConfig: Display: Loading Windows ini files took 0.03 seconds
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 11 (22H2) [10.0.22621.1555] (), CPU: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1660
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files (x86)/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.05.03-11.03.35:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.05.03-11.03.35:938][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2023.05.03-11.03.35:938][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2023.05.03-11.03.35:942][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.05.03-11.03.35:943][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.05.03-11.03.35:943][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.05.03-11.03.35:943][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.05.03-11.03.35:943][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.05.03-11.03.35:943][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.05.03-11.03.35:943][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.05.03-11.03.35:943][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.05.03-11.03.35:943][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.05.03-11.03.35:943][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.05.03-11.03.35:943][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.05.03-11.03.35:959][  0]LogD3D12RHI: Aftermath initialized
+[2023.05.03-11.03.35:959][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2023.05.03-11.03.36:932][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 1660 (Max supported Feature Level 12_1, shader model 6.6)
+[2023.05.03-11.03.36:932][  0]LogD3D12RHI: Adapter has 5980MB of dedicated video memory, 0MB of dedicated system memory, and 16352MB of shared system memory, 2 output[s]
+[2023.05.03-11.03.37:212][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2023.05.03-11.03.37:212][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16352MB of shared system memory, 0 output[s]
+[2023.05.03-11.03.37:212][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2023.05.03-11.03.37:213][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.05.03-11.03.37:213][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2023.05.03-11.03.37:213][  0]LogHAL: Display: Platform has ~ 32 GB [34294046720 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.05.03-11.03.37:213][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2023.05.03-11.03.37:213][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.05.03-11.03.37:213][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.05.03-11.03.37:213][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.05.03-11.03.37:213][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Github/GA2bProjectGit/Saved/Config/WindowsEditor/Editor.ini]
+[2023.05.03-11.03.37:213][  0]LogInit: Computer: DESKTOP-2UAA5BI
+[2023.05.03-11.03.37:213][  0]LogInit: User: TheEn
+[2023.05.03-11.03.37:213][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.05.03-11.03.37:213][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.05.03-11.03.37:213][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2023.05.03-11.03.37:213][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2023.05.03-11.03.37:213][  0]LogMemory: Process Physical Memory: 253.97 MB used, 265.52 MB peak
+[2023.05.03-11.03.37:213][  0]LogMemory: Process Virtual Memory: 195.49 MB used, 197.43 MB peak
+[2023.05.03-11.03.37:213][  0]LogMemory: Physical Memory: 11273.55 MB used,  21431.80 MB free, 32705.35 MB total
+[2023.05.03-11.03.37:213][  0]LogMemory: Virtual Memory: 19158.99 MB used,  15672.17 MB free, 34831.16 MB total
+[2023.05.03-11.03.37:213][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2023.05.03-11.03.37:219][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.05.03-11.03.37:237][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2023.05.03-11.03.37:238][  0]LogInit: Using OS detected language (en-GB).
+[2023.05.03-11.03.37:238][  0]LogInit: Using OS detected locale (en-GB).
+[2023.05.03-11.03.37:245][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so 'en' will be used for the language.
+[2023.05.03-11.03.37:454][  0]LogInit: Setting process to per monitor DPI aware
+[2023.05.03-11.03.37:466][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2023.05.03-11.03.37:466][  0]LogWindowsTextInputMethodSystem:   - English (United Kingdom) - (Keyboard).
+[2023.05.03-11.03.37:466][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2023.05.03-11.03.37:481][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.05.03-11.03.37:481][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.05.03-11.03.37:601][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2023.05.03-11.03.37:605][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2023.05.03-11.03.37:605][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2023.05.03-11.03.37:688][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2023.05.03-11.03.38:464][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2023.05.03-11.03.38:472][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2023.05.03-11.03.38:496][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2023.05.03-11.03.38:507][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2023.05.03-11.03.38:507][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2023.05.03-11.03.38:549][  0]LogD3D12RHI:     GPU DeviceId: 0x2184 (for the marketing name, search the web for "GPU Device Id")
+[2023.05.03-11.03.38:549][  0]LogWindows: Attached monitors:
+[2023.05.03-11.03.38:549][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY1' [PRIMARY]
+[2023.05.03-11.03.38:549][  0]LogWindows:     resolution: 1920x1080, work area: (-1920, 0) -> (0, 1032), device: '\\.\DISPLAY2'
+[2023.05.03-11.03.38:549][  0]LogWindows: Found 2 attached monitors.
+[2023.05.03-11.03.38:549][  0]LogWindows: EnumDisplayDevices:
+[2023.05.03-11.03.38:549][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660' (P:1 D:1), name: '\\.\DISPLAY1'
+[2023.05.03-11.03.38:550][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660' (P:0 D:1), name: '\\.\DISPLAY2'
+[2023.05.03-11.03.38:550][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660' (P:0 D:0), name: '\\.\DISPLAY3'
+[2023.05.03-11.03.38:550][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660' (P:0 D:0), name: '\\.\DISPLAY4'
+[2023.05.03-11.03.38:550][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.05.03-11.03.38:550][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 1660
+[2023.05.03-11.03.38:550][  0]LogD3D12RHI:   Driver Version: 531.18 (internal:31.0.15.3118, unified:531.18)
+[2023.05.03-11.03.38:550][  0]LogD3D12RHI:      Driver Date: 2-24-2023
+[2023.05.03-11.03.38:550][  0]LogRHI: Texture pool is 3283 MB (70% of 4690 MB)
+[2023.05.03-11.03.38:550][  0]LogD3D12RHI: Async texture creation enabled
+[2023.05.03-11.03.38:550][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2023.05.03-11.03.38:561][  0]LogRHI: GeForceNow SDK initialized: 0
+[2023.05.03-11.03.38:568][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="D:/Github/GA2bProjectGit/JellyBPIteration.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Github/GA2bProjectGit/Intermediate/TurnkeyReport_0.log" -log="D:/Github/GA2bProjectGit/Intermediate/TurnkeyLog_0.log" -project="D:/Github/GA2bProjectGit/JellyBPIteration.uproject"  -platform=all'
+[2023.05.03-11.03.38:568][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files (x86)/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Github/GA2bProjectGit/JellyBPIteration.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Github/GA2bProjectGit/Intermediate/TurnkeyReport_0.log" -log="D:/Github/GA2bProjectGit/Intermediate/TurnkeyLog_0.log" -project="D:/Github/GA2bProjectGit/JellyBPIteration.uproject"  -platform=all" ]
+[2023.05.03-11.03.38:595][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2023.05.03-11.03.38:615][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2023.05.03-11.03.38:615][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2023.05.03-11.03.38:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.05.03-11.03.38:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.05.03-11.03.38:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.05.03-11.03.38:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.05.03-11.03.38:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.05.03-11.03.38:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.05.03-11.03.38:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.05.03-11.03.38:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.05.03-11.03.38:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.05.03-11.03.38:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.05.03-11.03.38:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2023.05.03-11.03.38:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2023.05.03-11.03.38:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.05.03-11.03.38:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.05.03-11.03.38:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.05.03-11.03.38:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2023.05.03-11.03.38:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.05.03-11.03.38:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.05.03-11.03.38:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2023.05.03-11.03.38:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2023.05.03-11.03.38:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2023.05.03-11.03.38:664][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.05.03-11.03.38:664][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.05.03-11.03.38:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.05.03-11.03.38:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2023.05.03-11.03.38:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.05.03-11.03.38:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.05.03-11.03.38:671][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2023.05.03-11.03.38:680][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.05.03-11.03.38:684][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2023.05.03-11.03.38:684][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2023.05.03-11.03.38:684][  0]LogTargetPlatformManager:   ADPCM
+[2023.05.03-11.03.38:684][  0]LogTargetPlatformManager:   PCM
+[2023.05.03-11.03.38:688][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2023.05.03-11.03.38:688][  0]LogTargetPlatformManager:   BINKA
+[2023.05.03-11.03.38:688][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2023.05.03-11.03.38:688][  0]LogTargetPlatformManager:   OGG
+[2023.05.03-11.03.38:688][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2023.05.03-11.03.38:688][  0]LogTargetPlatformManager:   OPUS
+[2023.05.03-11.03.38:737][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2023.05.03-11.03.38:743][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2023.05.03-11.03.38:743][  0]LogTargetPlatformManager:   SF_METAL
+[2023.05.03-11.03.38:743][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2023.05.03-11.03.38:743][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2023.05.03-11.03.38:743][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2023.05.03-11.03.38:743][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2023.05.03-11.03.38:743][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2023.05.03-11.03.38:743][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2023.05.03-11.03.38:743][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2023.05.03-11.03.38:744][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2023.05.03-11.03.38:744][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2023.05.03-11.03.38:744][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2023.05.03-11.03.38:744][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2023.05.03-11.03.38:744][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2023.05.03-11.03.38:744][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2023.05.03-11.03.38:744][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2023.05.03-11.03.38:747][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2023.05.03-11.03.38:747][  0]LogTargetPlatformManager:   VVM_1_0
+[2023.05.03-11.03.38:747][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2023.05.03-11.03.38:747][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2023.05.03-11.03.38:747][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2023.05.03-11.03.38:747][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2023.05.03-11.03.38:747][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2023.05.03-11.03.38:747][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.05.03-11.03.38:747][  0]LogShaderCompilers: Display: Compiling shader autogen file: D:/Github/GA2bProjectGit/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2023.05.03-11.03.38:747][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.05.03-11.03.38:747][  0]LogShaderCompilers: Display: Compiling shader autogen file: D:/Github/GA2bProjectGit/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2023.05.03-11.03.38:747][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.05.03-11.03.38:751][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Github/GA2bProjectGit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.05.03-11.03.38:751][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2023.05.03-11.03.38:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Github/GA2bProjectGit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.05.03-11.03.38:752][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2023.05.03-11.03.38:773][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2023.05.03-11.03.38:773][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.05.03-11.03.38:773][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2023.05.03-11.03.38:784][  0]LogDerivedDataCache: Speed tests for C:/Users/TheEn/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2023.05.03-11.03.38:784][  0]LogDerivedDataCache: Display: Performance to C:/Users/TheEn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=1181.31MBs, RandomWriteSpeed=95.86MBs. Assigned SpeedClass 'Local'
+[2023.05.03-11.03.38:785][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheEn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.05.03-11.03.38:785][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.05.03-11.03.38:785][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2023.05.03-11.03.38:791][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2023.05.03-11.03.38:791][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2023.05.03-11.03.38:791][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (D:/Github/GA2bProjectGit/Intermediate/Shaders/WorkingDirectory/30192/).
+[2023.05.03-11.03.38:791][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TheEn/AppData/Local/Temp/UnrealShaderWorkingDir/FAFCB0AE45EC66D1B16FAA9316157934/'.
+[2023.05.03-11.03.38:792][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.05.03-11.03.38:792][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 3 workers.
+[2023.05.03-11.03.40:310][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2023.05.03-11.03.40:310][  0]LogSlate: Using FreeType 2.10.0
+[2023.05.03-11.03.40:311][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.05.03-11.03.40:347][  0]LogAssetRegistry: FAssetRegistry took 0.0133 seconds to start up
+[2023.05.03-11.03.40:353][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2023.05.03-11.03.40:555][  0]LogSerialization: UsePackageTrailer: 'false'
+[2023.05.03-11.03.40:556][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2023.05.03-11.03.40:910][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.05.03-11.03.40:910][  0]LogDeviceProfileManager: Active device profile: [0000081A50195CC0][0000081A46D10000 50] WindowsEditor
+[2023.05.03-11.03.40:911][  0]LogDeviceProfileManager: Profiles: [0000081A50195780][0000081A4960C800 50] Windows, [0000081A50195CC0][0000081A46D10000 50] WindowsEditor, [0000081A50191180][0000081A46C5C800 50] WindowsServer, [0000081A50191C00][0000081A46D12800 50] WindowsClient, [0000081A50191DC0][0000081A503E2800 50] IOS, [0000081A50195400][0000081A503E0000 50] iPadAir2, [0000081A50196580][0000081A46D15000 50] IPadPro, [0000081A50196900][0000081A503EA000 50] iPadAir3, [0000081A50194600][0000081A46CA7800 50] iPadAir4, [0000081A50192D80][0000081A503EC800 50] iPadMini4, [0000081A50194D00][0000081A503D2800 50] iPadMini5, [0000081A50191880][0000081A503D0000 50] iPadMini6, [0000081A50198F80][0000081A50432800 50] iPhone6S, [0000081A50199300][0000081A50430000 50] iPhone7, [0000081A50199680][0000081A50435000 50] iPodTouch7, [0000081A501939C0][0000081A503E5000 50] iPhone6SPlus, [0000081A50193D40][0000081A503D5000 50] iPhone7Plus, [0000081A50193640][0000081A5043C800 50] iPhoneSE, [0000081A50199140][0000081A503DA000 50] iPhone8, [0000081A501932C0][0000081A5043A000 50] iPhone8Plus, [0000081A50199840][0000081A50437800 50] iPhoneX, [0000081A50197FC0][0000081A503DC800 50] iPhoneXS, [0000081A50194280][0000081A503F2800 50] iPhoneXSMax, [0000081A50193100][0000081A503F0000 50] iPhoneXR, [0000081A501940C0][0000081A503FA000 50] iPhone11, [0000081A50197700][0000081A503D7800 50] iPhone11Pro, [0000081A50194EC0][0000081A503E7800 50] iPhone11ProMax, [0000081A50193F00][0000081A503F7800 50] iPhoneSE2, [0000081A50195240][0000081A50402800 50] iPhone12Mini, [0000081A50198880][0000081A50400000 50] iPhone12, [0000081A50194440][0000081A5040A000 50] iPhone12Pro, [0000081A50196740][0000081A503F5000 50] iPhone12ProMax, [0000081A50193B80][0000081A50405000 50] iPhone13Mini, [0000081A50197380][0000081A50407800 50] iPhone13, [0000081A50198180][0000081A50412800 50] iPhone13Pro, [0000081A50196AC0][0000081A50410000 50] iPhone13ProMax, [0000081A50192BC0][0000081A5041A000 50] iPadPro105, [0000081A50198A40][0000081A5040C800 50] iPadPro129, [0000081A50198DC0][0000081A38D9A000 50] iPadPro97, [0000081A50192840][0000081A50417800 50] iPadPro2_129, [0000081A50193800][0000081A50422800 50] iPad5, [0000081A50197E00][0000081A50420000 50] iPad6, [0000081A50192F40][0000081A5042A000 50] iPad7, [0000081A50197A80][0000081A50415000 50] iPad8, [0000081A50191F80][0000081A50425000 50] iPad9, [0000081A50196E40][0000081A50427800 50] iPadPro11, [0000081A50196040][0000081A50442800 50] iPadPro2_11, [0000081A50191A40][0000081A50440000 50] iPadPro3_11, [0000081A50195B00][0000081A5044A000 50] iPadPro3_129, [0000081A50197C40][0000081A5042C800 50] iPadPro4_129, [0000081A50192300][0000081A503FC800 50] iPadPro5_129, [0000081A50195E80][0000081A50447800 50] AppleTV, [0000081A50194B40][0000081A50452800 50] AppleTV4K, [0000081A50190FC0][0000081A50450000 50] TVOS, [0000081A5019B600][0000081A5044C800 50] Mac, [0000081A5019B980][0000081A50445000 50] MacEditor, [0000081A5019B280][0000081A5045C800 50] MacClient, [0000081A50197540][0000081A50457800 50] MacServer, [0000081A5019BD00][0000081A50472800 50] Linux, [0000081A5019C080][0000081A50475000 50] LinuxEditor, [0000081A501994C0][0000081A50477800 50] LinuxArm64Editor, [0000081A50194980][0000081A50455000 50] LinuxArm64, [0000081A50198340][0000081A50470000 50] LinuxClient, [0000081A50192A00][0000081A5047A000 50] LinuxArm64Client, [0000081A50198500][0000081A50462800 50] LinuxServer, [0000081A5019B440][0000081A50460000 50] LinuxArm64Server, [0000081A5019BEC0][0000081A5046A000 50] Android, [0000081A50190A80][0000081A5047C800 50] Android_Preview_OpenGL, [0000081A5019AD40][0000081A5041C800 50] Android_Preview_Vulkan, [0000081A501986C0][0000081A50467800 50] Android_Low, [0000081A50193480][0000081A50482800 50] Android_Mid, [0000081A5019B0C0][0000081A50480000 50] Android_High, [0000081A501971C0][0000081A5048A000 50] Android_Default, [0000081A5019CB00][0000081A50465000 50] Android_Adreno4xx, [0000081A5019AF00][0000081A50485000 50] Android_Adreno5xx_Low, [0000081A50192680][0000081A50487800 50] Android_Adreno5xx, [0000081A5019AB80][0000081A50492800 50] Android_Adreno6xx, [0000081A50195080][0000081A50490000 50] Android_Adreno6xx_Vulkan, [0000081A50199A00][0000081A5049A000 50] Android_Adreno7xx, [0000081A5019B7C0][0000081A5048C800 50] Android_Adreno7xx_Vulkan, [0000081A50199BC0][0000081A5045A000 50] Android_Mali_T6xx, [0000081A501947C0][0000081A50497800 50] Android_Mali_T7xx, [0000081A5019A640][0000081A504B2800 50] Android_Mali_T8xx, [0000081A50198C00][0000081A504B0000 50] Android_Mali_G71, [0000081A5019A800][0000081A504BA000 50] Android_Mali_G72, [0000081A5019C5C0][0000081A50495000 50] Android_Mali_G72_Vulkan, [0000081A5019BB40][0000081A504B5000 50] Android_Mali_G76, [0000081A5019D3C0][0000081A504B7800 50] Android_Mali_G76_Vulkan, [0000081A5019C940][0000081A504C2800 50] Android_Mali_G77, [0000081A50192140][0000081A504C0000 50] Android_Mali_G77_Vulkan, [0000081A50196200][0000081A504CA000 50] Android_Mali_G78, [0000081A5019D580][0000081A504BC800 50] Android_Mali_G78_Vulkan, [0000081A5019A2C0][0000081A5046C800 50] Android_Mali_G710, [0000081A5019D900][0000081A504C7800 50] Android_Mali_G710_Vulkan, [0000081A501978C0][0000081A504D2800 50] Android_Xclipse_920, [0000081A5019C400][0000081A504D0000 50] Android_Xclipse_920_Vulkan, [0000081A5019E380][0000081A504DA000 50] Android_Vulkan_SM5, [0000081A5019CE80][0000081A504C5000 50] Android_PowerVR_G6xxx, [0000081A5019A480][0000081A504D5000 50] Android_PowerVR_GT7xxx, [0000081A5019DC80][0000081A504D7800 50] Android_PowerVR_GE8xxx, [0000081A5019E540][0000081A504E2800 50] Android_PowerVR_GM9xxx, [0000081A5019D040][0000081A504E0000 50] Android_PowerVR_GM9xxx_Vulkan, [0000081A5019E8C0][0000081A504EA000 50] Android_TegraK1, [0000081A50197000][0000081A504DC800 50] Android_Unknown_Vulkan, [0000081A5019F340][0000081A5049C800 50] Oculus_Quest, [0000081A5019EA80][0000081A504E7800 50] Oculus_Quest2, [0000081A5019DE40][0000081A504F2800 50] HoloLens, 
+[2023.05.03-11.03.40:911][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2023.05.03-11.03.40:914][  0]LogTurnkeySupport: Turnkey Platform: Android: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=r21a, MaxAllowed=r23a, Flags="Platform_InvalidHostPrerequisites", Error="Android Studio is not installed correctly.|Android SDK directory is not set correctly.")
+[2023.05.03-11.03.40:914][  0]LogTurnkeySupport: Turnkey Platform: IOS: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=1100.0.0.0, MaxAllowed=1399.0, Flags="Platform_ValidHostPrerequisites")
+[2023.05.03-11.03.40:914][  0]LogTurnkeySupport: Turnkey Platform: Linux: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v20_clang-13.0.1-centos7, MaxAllowed=v20_clang-13.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
+[2023.05.03-11.03.40:914][  0]LogTurnkeySupport: Turnkey Platform: LinuxArm64: (Status=Invalid, Installed=, AutoSDK=, MinAllowed=v20_clang-13.0.1-centos7, MaxAllowed=v20_clang-13.0.1-centos7, Flags="Platform_ValidHostPrerequisites")
+[2023.05.03-11.03.40:914][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, Installed=10.0.22000.0, AutoSDK=, MinAllowed=10.0.00000.0, MaxAllowed=10.9.99999.0, Flags="InstalledSdk_ValidVersionExists")
+[2023.05.03-11.03.40:936][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2023.05.03-11.03.41:145][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.05.03-11.03.41:145][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.05.03-11.03.41:145][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.05.03-11.03.41:145][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.05.03-11.03.41:145][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.05.03-11.03.41:163][  0]LogNetVersion: JellyBPIteration 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 141721474)
+[2023.05.03-11.03.41:307][  0]LogSlate: Border
+[2023.05.03-11.03.41:307][  0]LogSlate: BreadcrumbButton
+[2023.05.03-11.03.41:307][  0]LogSlate: Default
+[2023.05.03-11.03.41:307][  0]LogSlate: Icons.Save
+[2023.05.03-11.03.41:307][  0]LogSlate: Icons.Toolbar.Settings
+[2023.05.03-11.03.41:307][  0]LogSlate: ListView
+[2023.05.03-11.03.41:307][  0]LogSlate: SoftwareCursor_CardinalCross
+[2023.05.03-11.03.41:307][  0]LogSlate: SoftwareCursor_Grab
+[2023.05.03-11.03.41:307][  0]LogSlate: TableView.DarkRow
+[2023.05.03-11.03.41:307][  0]LogSlate: TableView.Row
+[2023.05.03-11.03.41:308][  0]LogSlate: TreeView
+[2023.05.03-11.03.41:549][  0]SourceControl: Source control is disabled
+[2023.05.03-11.03.41:577][  0]SourceControl: Source control is disabled
+[2023.05.03-11.03.41:578][  0]SourceControl: Source control is disabled
+[2023.05.03-11.03.41:707][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2023.05.03-11.03.41:707][  0]LogUObjectAllocator: 5584264 out of 0 bytes used by permanent object pool.
+[2023.05.03-11.03.41:707][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.05.03-11.03.42:133][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 3FD022C7411F2EE338C6A6AC353CC5DB | Instance: BEF76A3D4867DB9A4A2CDCBF1C9C6CAF (DESKTOP-2UAA5BI-30192).
+[2023.05.03-11.03.42:170][  0]LogPython: Using Python 3.9.7
+[2023.05.03-11.03.43:057][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.05.03-11.03.43:063][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.05.03-11.03.43:384][  0]SourceControl: Source control is disabled
+[2023.05.03-11.03.43:387][  0]SourceControl: Source control is disabled
+[2023.05.03-11.03.43:396][  0]SourceControl: Source control is disabled
+[2023.05.03-11.03.43:407][  0]LogUProjectInfo: Found projects:
+[2023.05.03-11.03.43:524][  0]LogOpenImageDenoise: OIDN starting up
+[2023.05.03-11.03.43:606][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.05.03-11.03.43:633][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.05.03-11.03.43:633][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.05.03-11.03.43:749][  0]LogCollectionManager: Loaded 0 collections in 0.002220 seconds
+[2023.05.03-11.03.43:842][  0]LogFileCache: Scanning file cache for directory 'D:/Github/GA2bProjectGit/Saved/Collections/' took 0.00s
+[2023.05.03-11.03.43:843][  0]LogFileCache: Scanning file cache for directory 'D:/Github/GA2bProjectGit/Content/Developers/TheEn/Collections/' took 0.00s
+[2023.05.03-11.03.43:843][  0]LogFileCache: Scanning file cache for directory 'D:/Github/GA2bProjectGit/Content/Collections/' took 0.00s
+[2023.05.03-11.03.44:161][  0]LogEngine: Initializing Engine...
+[2023.05.03-11.03.44:176][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2023.05.03-11.03.44:177][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.05.03-11.03.44:455][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.05.03-11.03.44:455][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.05.03-11.03.44:466][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-11.03.44:500][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.05.03-11.03.44:500][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.05.03-11.03.44:525][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.05.03-11.03.44:526][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.05.03-11.03.44:526][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2023.05.03-11.03.44:527][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.05.03-11.03.44:527][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.05.03-11.03.44:527][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-11.03.44:527][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-11.03.44:527][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-11.03.44:527][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-11.03.44:527][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-11.03.44:527][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.03-11.03.44:527][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-11.03.44:527][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-11.03.44:527][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-11.03.44:527][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-11.03.44:527][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-11.03.44:533][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.03-11.03.44:567][  0]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Kraken Kitty Edition)
+[2023.05.03-11.03.44:568][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-11.03.44:570][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-11.03.44:570][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-11.03.44:571][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2023.05.03-11.03.44:571][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.03-11.03.44:572][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.03-11.03.44:572][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2023.05.03-11.03.44:572][  0]LogInit: FAudioDevice initialized.
+[2023.05.03-11.03.44:572][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.05.03-11.03.44:572][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.05.03-11.03.44:572][  0]LogInit: Texture streaming: Enabled
+[2023.05.03-11.03.44:611][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2023.05.03-11.03.44:622][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.05.03-11.03.45:729][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.05.03-11.03.45:738][  0]LogLiveCoding: Display: Starting LiveCoding
+[2023.05.03-11.03.45:738][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: JellyBPIterationEditor Win64 Development
+[2023.05.03-11.03.45:747][  0]LogLiveCoding: Display: Detected running instance in process group "UE_JellyBPIteration_0x3b5ddc28", connecting to console process (PID: 14212)
+[2023.05.03-11.03.45:747][  0]LogLiveCoding: Display: Waiting for server
+[2023.05.03-11.03.45:747][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2023.05.03-11.03.45:776][  0]LogInit: Transaction tracking system initialized
+[2023.05.03-11.03.45:870][  0]BlueprintLog: New page: Editor Load
+[2023.05.03-11.03.46:111][  0]LocalizationService: Localization service is disabled
+[2023.05.03-11.03.46:171][  0]TimingProfiler: Initialize
+[2023.05.03-11.03.46:171][  0]TimingProfiler: OnSessionChanged
+[2023.05.03-11.03.46:171][  0]LoadingProfiler: Initialize
+[2023.05.03-11.03.46:171][  0]LoadingProfiler: OnSessionChanged
+[2023.05.03-11.03.46:171][  0]NetworkingProfiler: Initialize
+[2023.05.03-11.03.46:171][  0]NetworkingProfiler: OnSessionChanged
+[2023.05.03-11.03.46:171][  0]MemoryProfiler: Initialize
+[2023.05.03-11.03.46:171][  0]MemoryProfiler: OnSessionChanged
+[2023.05.03-11.03.46:950][  0]LogFileCache: Scanning file cache for directory 'D:/Github/GA2bProjectGit/Content/' took 0.02s
+[2023.05.03-11.03.46:950][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.05.03-11.03.47:035][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.05.03-11.03.47:037][  0]SourceControl: Source control is disabled
+[2023.05.03-11.03.47:037][  0]LogUnrealEdMisc: Loading editor; pre map load, took 13.619
+[2023.05.03-11.03.47:037][  0]Cmd: MAP LOAD FILE="D:/Github/GA2bProjectGit/Content/DefaultMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.05.03-11.03.47:037][  0]LightingResults: New page: Lighting Build
+[2023.05.03-11.03.47:046][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-11.03.47:046][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-11.03.47:046][  0]MapCheck: New page: Map Check
+[2023.05.03-11.03.47:046][  0]LightingResults: New page: Lighting Build
+[2023.05.03-11.03.47:054][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-11.03.47:057][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.05.03-11.03.47:121][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'DefaultMap'.
+[2023.05.03-11.03.47:127][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-11.03.47:129][  0]LogAIModule: Creating AISystem for world DefaultMap
+[2023.05.03-11.03.47:130][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.05.03-11.03.47:131][  0]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagara_EmitterStateOptions::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions' and '/Niagara/Enums/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagara_EmitterStateOptions::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions' and '/Niagara/Enums/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagara_EmitterStateOptions::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions' and '/Niagara/Enums/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagara_EmitterStateOptions::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions' and '/Niagara/Enums/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagara_InfiniteLoopDuration::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration' and '/Niagara/Enums/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagara_InfiniteLoopDuration::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration' and '/Niagara/Enums/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagara_InfiniteLoopDuration::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration' and '/Niagara/Enums/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagaraEmitterLifeCycleMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode' and '/Niagara/Enums/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagaraEmitterLifeCycleMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode' and '/Niagara/Enums/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagaraEmitterLifeCycleMode::ENiagaraEmitterLifeCycleMode_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode' and '/Niagara/Enums/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagaraEmitterScalabilityMode_Limited::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited' and '/Niagara/Enums/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagaraEmitterScalabilityMode_Limited::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited' and '/Niagara/Enums/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagaraEmitterScalabilityMode_Limited::ENiagaraEmitterScalabilityMode_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited' and '/Niagara/Enums/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited'
+[2023.05.03-11.03.48:713][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:714][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:714][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:714][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:714][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::NewEnumerator4' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:714][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::ENiagaraExecutionStateManagement_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:714][  0]LogEnum: Warning: Enum name collision: 'ENiagaraInactiveMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraInactiveMode.ENiagaraInactiveMode' and '/Niagara/Enums/ENiagaraInactiveMode.ENiagaraInactiveMode'
+[2023.05.03-11.03.48:714][  0]LogEnum: Warning: Enum name collision: 'ENiagaraInactiveMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraInactiveMode.ENiagaraInactiveMode' and '/Niagara/Enums/ENiagaraInactiveMode.ENiagaraInactiveMode'
+[2023.05.03-11.03.48:714][  0]LogEnum: Warning: Enum name collision: 'ENiagaraInactiveMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraInactiveMode.ENiagaraInactiveMode' and '/Niagara/Enums/ENiagaraInactiveMode.ENiagaraInactiveMode'
+[2023.05.03-11.03.48:714][  0]LogEnum: Warning: Enum name collision: 'ENiagaraInactiveMode::ENiagaraInactiveMode_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraInactiveMode.ENiagaraInactiveMode' and '/Niagara/Enums/ENiagaraInactiveMode.ENiagaraInactiveMode'
+[2023.05.03-11.03.48:724][  0]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessEvaluation::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation' and '/Niagara/Enums/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation'
+[2023.05.03-11.03.48:724][  0]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessEvaluation::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation' and '/Niagara/Enums/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation'
+[2023.05.03-11.03.48:724][  0]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessEvaluation::ENiagaraRandomnessEvaluation_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation' and '/Niagara/Enums/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ColorInitializationMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode' and '/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ColorInitializationMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode' and '/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ColorInitializationMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode' and '/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ColorInitializationMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode' and '/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ColorInitializationMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode' and '/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LifetimeMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LifetimeMode.ENiagara_LifetimeMode' and '/Niagara/Enums/ENiagara_LifetimeMode.ENiagara_LifetimeMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LifetimeMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LifetimeMode.ENiagara_LifetimeMode' and '/Niagara/Enums/ENiagara_LifetimeMode.ENiagara_LifetimeMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LifetimeMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LifetimeMode.ENiagara_LifetimeMode' and '/Niagara/Enums/ENiagara_LifetimeMode.ENiagara_LifetimeMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_MassInitializationMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode' and '/Niagara/Enums/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_MassInitializationMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode' and '/Niagara/Enums/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_MassInitializationMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode' and '/Niagara/Enums/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_MassInitializationMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode' and '/Niagara/Enums/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_PositionInitializationMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode' and '/Niagara/Enums/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_PositionInitializationMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode' and '/Niagara/Enums/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_PositionInitializationMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode' and '/Niagara/Enums/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_PositionInitializationMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode' and '/Niagara/Enums/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::NewEnumerator4' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SpriteRotationMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode' and '/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SpriteRotationMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode' and '/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SpriteRotationMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode' and '/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SpriteRotationMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode' and '/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SpriteRotationMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode' and '/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSet::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSet.ENiagara_UnsetDirectSet' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSet.ENiagara_UnsetDirectSet'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSet::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSet.ENiagara_UnsetDirectSet' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSet.ENiagara_UnsetDirectSet'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSet::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSet.ENiagara_UnsetDirectSet' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSet.ENiagara_UnsetDirectSet'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSetRandom::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSetRandom::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSetRandom::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom'
+[2023.05.03-11.03.48:729][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSetRandom::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom'
+[2023.05.03-11.03.48:730][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:730][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:730][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:730][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:730][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::NewEnumerator4' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:730][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:730][  0]LogEnum: Warning: Enum name collision: 'ENiagaraChannelCorrelation::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation' and '/Niagara/Enums/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation'
+[2023.05.03-11.03.48:730][  0]LogEnum: Warning: Enum name collision: 'ENiagaraChannelCorrelation::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation' and '/Niagara/Enums/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation'
+[2023.05.03-11.03.48:730][  0]LogEnum: Warning: Enum name collision: 'ENiagaraChannelCorrelation::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation' and '/Niagara/Enums/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation'
+[2023.05.03-11.03.48:730][  0]LogEnum: Warning: Enum name collision: 'ENiagaraChannelCorrelation::ENiagaraChannelCorrelation_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation' and '/Niagara/Enums/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation'
+[2023.05.03-11.03.48:742][  0]LogEnum: Warning: Enum name collision: 'ENiagaraScaleColorMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraScaleColorMode.ENiagaraScaleColorMode' and '/Niagara/Enums/ENiagaraScaleColorMode.ENiagaraScaleColorMode'
+[2023.05.03-11.03.48:742][  0]LogEnum: Warning: Enum name collision: 'ENiagaraScaleColorMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraScaleColorMode.ENiagaraScaleColorMode' and '/Niagara/Enums/ENiagaraScaleColorMode.ENiagaraScaleColorMode'
+[2023.05.03-11.03.48:742][  0]LogEnum: Warning: Enum name collision: 'ENiagaraScaleColorMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraScaleColorMode.ENiagaraScaleColorMode' and '/Niagara/Enums/ENiagaraScaleColorMode.ENiagaraScaleColorMode'
+[2023.05.03-11.03.48:742][  0]LogEnum: Warning: Enum name collision: 'ENiagaraScaleColorMode::ENiagaraScaleColorMode_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraScaleColorMode.ENiagaraScaleColorMode' and '/Niagara/Enums/ENiagaraScaleColorMode.ENiagaraScaleColorMode'
+[2023.05.03-11.03.48:744][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleSpriteSize::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize' and '/Niagara/Enums/SpriteRenderer/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize'
+[2023.05.03-11.03.48:744][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleSpriteSize::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize' and '/Niagara/Enums/SpriteRenderer/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize'
+[2023.05.03-11.03.48:744][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleSpriteSize::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize' and '/Niagara/Enums/SpriteRenderer/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize'
+[2023.05.03-11.03.48:744][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleSpriteSize::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize' and '/Niagara/Enums/SpriteRenderer/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize'
+[2023.05.03-11.03.48:744][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleSpriteSize::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize' and '/Niagara/Enums/SpriteRenderer/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize'
+[2023.05.03-11.03.48:746][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AngleInput::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AngleInput.ENiagara_AngleInput' and '/Niagara/Enums/Angles/ENiagara_AngleInput.ENiagara_AngleInput'
+[2023.05.03-11.03.48:746][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AngleInput::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AngleInput.ENiagara_AngleInput' and '/Niagara/Enums/Angles/ENiagara_AngleInput.ENiagara_AngleInput'
+[2023.05.03-11.03.48:746][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AngleInput::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AngleInput.ENiagara_AngleInput' and '/Niagara/Enums/Angles/ENiagara_AngleInput.ENiagara_AngleInput'
+[2023.05.03-11.03.48:746][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AngleInput::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AngleInput.ENiagara_AngleInput' and '/Niagara/Enums/Angles/ENiagara_AngleInput.ENiagara_AngleInput'
+[2023.05.03-11.03.48:760][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:760][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:760][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:760][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:760][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator4' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:760][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator5' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:760][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AttributeSamplingApplyOutput::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AttributeSamplingApplyOutput.ENiagara_AttributeSamplingApplyOutput' and '/Niagara/Enums/ENiagara_AttributeSamplingApplyOutput.ENiagara_AttributeSamplingApplyOutput'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AttributeSamplingApplyOutput::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AttributeSamplingApplyOutput.ENiagara_AttributeSamplingApplyOutput' and '/Niagara/Enums/ENiagara_AttributeSamplingApplyOutput.ENiagara_AttributeSamplingApplyOutput'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AttributeSamplingApplyOutput::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AttributeSamplingApplyOutput.ENiagara_AttributeSamplingApplyOutput' and '/Niagara/Enums/ENiagara_AttributeSamplingApplyOutput.ENiagara_AttributeSamplingApplyOutput'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_BoxPlaneMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_BoxPlaneMode.ENiagara_BoxPlaneMode' and '/Niagara/Enums/Location/ENiagara_BoxPlaneMode.ENiagara_BoxPlaneMode'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_BoxPlaneMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_BoxPlaneMode.ENiagara_BoxPlaneMode' and '/Niagara/Enums/Location/ENiagara_BoxPlaneMode.ENiagara_BoxPlaneMode'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_BoxPlaneMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_BoxPlaneMode.ENiagara_BoxPlaneMode' and '/Niagara/Enums/Location/ENiagara_BoxPlaneMode.ENiagara_BoxPlaneMode'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ConeMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ConeMode.ENiagara_ConeMode' and '/Niagara/Enums/Location/ENiagara_ConeMode.ENiagara_ConeMode'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ConeMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ConeMode.ENiagara_ConeMode' and '/Niagara/Enums/Location/ENiagara_ConeMode.ENiagara_ConeMode'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ConeMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ConeMode.ENiagara_ConeMode' and '/Niagara/Enums/Location/ENiagara_ConeMode.ENiagara_ConeMode'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_CylinderMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_CylinderMode.ENiagara_CylinderMode' and '/Niagara/Enums/Location/ENiagara_CylinderMode.ENiagara_CylinderMode'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_CylinderMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_CylinderMode.ENiagara_CylinderMode' and '/Niagara/Enums/Location/ENiagara_CylinderMode.ENiagara_CylinderMode'
+[2023.05.03-11.03.48:764][  0]LogEnum: Warning: Enum name collision: 'ENiagara_CylinderMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_CylinderMode.ENiagara_CylinderMode' and '/Niagara/Enums/Location/ENiagara_CylinderMode.ENiagara_CylinderMode'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator4' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator5' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_OffsetMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_OffsetMode.ENiagara_OffsetMode' and '/Niagara/Enums/Transforms/ENiagara_OffsetMode.ENiagara_OffsetMode'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_OffsetMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_OffsetMode.ENiagara_OffsetMode' and '/Niagara/Enums/Transforms/ENiagara_OffsetMode.ENiagara_OffsetMode'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_OffsetMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_OffsetMode.ENiagara_OffsetMode' and '/Niagara/Enums/Transforms/ENiagara_OffsetMode.ENiagara_OffsetMode'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleMode.ENiagara_ScaleMode' and '/Niagara/Enums/Transforms/ENiagara_ScaleMode.ENiagara_ScaleMode'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleMode.ENiagara_ScaleMode' and '/Niagara/Enums/Transforms/ENiagara_ScaleMode.ENiagara_ScaleMode'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleMode::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleMode.ENiagara_ScaleMode' and '/Niagara/Enums/Transforms/ENiagara_ScaleMode.ENiagara_ScaleMode'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_TransformOrder::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_TransformOrder.ENiagara_TransformOrder' and '/Niagara/Enums/Transforms/ENiagara_TransformOrder.ENiagara_TransformOrder'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_TransformOrder::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_TransformOrder.ENiagara_TransformOrder' and '/Niagara/Enums/Transforms/ENiagara_TransformOrder.ENiagara_TransformOrder'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_TransformOrder::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_TransformOrder.ENiagara_TransformOrder' and '/Niagara/Enums/Transforms/ENiagara_TransformOrder.ENiagara_TransformOrder'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_TransformType::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_TransformType.ENiagara_TransformType' and '/Niagara/Enums/Transforms/ENiagara_TransformType.ENiagara_TransformType'
+[2023.05.03-11.03.48:765][  0]LogEnum: Warning: Enum name collision: 'ENiagara_TransformType::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_TransformType.ENiagara_TransformType' and '/Niagara/Enums/Transforms/ENiagara_TransformType.ENiagara_TransformType'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagara_TransformType::ENiagara_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_TransformType.ENiagara_TransformType' and '/Niagara/Enums/Transforms/ENiagara_TransformType.ENiagara_TransformType'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExpansionMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExpansionMode.ENiagaraExpansionMode' and '/Niagara/Enums/ENiagaraExpansionMode.ENiagaraExpansionMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExpansionMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExpansionMode.ENiagaraExpansionMode' and '/Niagara/Enums/ENiagaraExpansionMode.ENiagaraExpansionMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExpansionMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExpansionMode.ENiagaraExpansionMode' and '/Niagara/Enums/ENiagaraExpansionMode.ENiagaraExpansionMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExpansionMode::ENiagaraExpansionMode_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExpansionMode.ENiagaraExpansionMode' and '/Niagara/Enums/ENiagaraExpansionMode.ENiagaraExpansionMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraRingDiscMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraRingDiscMode.ENiagaraRingDiscMode' and '/Niagara/Enums/Location/ENiagaraRingDiscMode.ENiagaraRingDiscMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraRingDiscMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraRingDiscMode.ENiagaraRingDiscMode' and '/Niagara/Enums/Location/ENiagaraRingDiscMode.ENiagaraRingDiscMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraRingDiscMode::ENiagaraRingDiscMode_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraRingDiscMode.ENiagaraRingDiscMode' and '/Niagara/Enums/Location/ENiagaraRingDiscMode.ENiagaraRingDiscMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraShapeTorusMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraShapeTorusMode.ENiagaraShapeTorusMode' and '/Niagara/Enums/ENiagaraShapeTorusMode.ENiagaraShapeTorusMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraShapeTorusMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraShapeTorusMode.ENiagaraShapeTorusMode' and '/Niagara/Enums/ENiagaraShapeTorusMode.ENiagaraShapeTorusMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraShapeTorusMode::ENiagaraShapeTorusMode_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraShapeTorusMode.ENiagaraShapeTorusMode' and '/Niagara/Enums/ENiagaraShapeTorusMode.ENiagaraShapeTorusMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSphereDistributionMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode' and '/Niagara/Enums/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSphereDistributionMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode' and '/Niagara/Enums/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSphereDistributionMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode' and '/Niagara/Enums/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSphereDistributionMode::ENiagaraSphereDistributionMode_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode' and '/Niagara/Enums/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraTorusDistributionMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraTorusDistributionMode.ENiagaraTorusDistributionMode' and '/Niagara/Enums/ENiagaraTorusDistributionMode.ENiagaraTorusDistributionMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraTorusDistributionMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraTorusDistributionMode.ENiagaraTorusDistributionMode' and '/Niagara/Enums/ENiagaraTorusDistributionMode.ENiagaraTorusDistributionMode'
+[2023.05.03-11.03.48:766][  0]LogEnum: Warning: Enum name collision: 'ENiagaraTorusDistributionMode::ENiagaraTorusDistributionMode_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraTorusDistributionMode.ENiagaraTorusDistributionMode' and '/Niagara/Enums/ENiagaraTorusDistributionMode.ENiagaraTorusDistributionMode'
+[2023.05.03-11.03.48:821][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSystemInactiveMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode' and '/Niagara/Enums/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode'
+[2023.05.03-11.03.48:821][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSystemInactiveMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode' and '/Niagara/Enums/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode'
+[2023.05.03-11.03.48:821][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSystemInactiveMode::ENiagaraSystemInactiveMode_MAX' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode' and '/Niagara/Enums/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagara_EmitterStateOptions::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions' and '/Niagara/Enums/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagara_EmitterStateOptions::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions' and '/Niagara/Enums/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagara_EmitterStateOptions::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions' and '/Niagara/Enums/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagara_InfiniteLoopDuration::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration' and '/Niagara/Enums/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagara_InfiniteLoopDuration::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration' and '/Niagara/Enums/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraEmitterLifeCycleMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode' and '/Niagara/Enums/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraEmitterLifeCycleMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode' and '/Niagara/Enums/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraEmitterScalabilityMode_Limited::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited' and '/Niagara/Enums/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraEmitterScalabilityMode_Limited::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited' and '/Niagara/Enums/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExecutionStateManagement::NewEnumerator4' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement' and '/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraInactiveMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraInactiveMode.ENiagaraInactiveMode' and '/Niagara/Enums/ENiagaraInactiveMode.ENiagaraInactiveMode'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraInactiveMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraInactiveMode.ENiagaraInactiveMode' and '/Niagara/Enums/ENiagaraInactiveMode.ENiagaraInactiveMode'
+[2023.05.03-11.03.48:863][  0]LogEnum: Warning: Enum name collision: 'ENiagaraInactiveMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraInactiveMode.ENiagaraInactiveMode' and '/Niagara/Enums/ENiagaraInactiveMode.ENiagaraInactiveMode'
+[2023.05.03-11.03.48:869][  0]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessEvaluation::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation' and '/Niagara/Enums/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation'
+[2023.05.03-11.03.48:869][  0]LogEnum: Warning: Enum name collision: 'ENiagaraRandomnessEvaluation::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation' and '/Niagara/Enums/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation'
+[2023.05.03-11.03.48:870][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ColorInitializationMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode' and '/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode'
+[2023.05.03-11.03.48:870][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ColorInitializationMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode' and '/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode'
+[2023.05.03-11.03.48:870][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ColorInitializationMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode' and '/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode'
+[2023.05.03-11.03.48:870][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ColorInitializationMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode' and '/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode'
+[2023.05.03-11.03.48:870][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LifetimeMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LifetimeMode.ENiagara_LifetimeMode' and '/Niagara/Enums/ENiagara_LifetimeMode.ENiagara_LifetimeMode'
+[2023.05.03-11.03.48:870][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LifetimeMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LifetimeMode.ENiagara_LifetimeMode' and '/Niagara/Enums/ENiagara_LifetimeMode.ENiagara_LifetimeMode'
+[2023.05.03-11.03.48:870][  0]LogEnum: Warning: Enum name collision: 'ENiagara_MassInitializationMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode' and '/Niagara/Enums/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode'
+[2023.05.03-11.03.48:870][  0]LogEnum: Warning: Enum name collision: 'ENiagara_MassInitializationMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode' and '/Niagara/Enums/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_MassInitializationMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode' and '/Niagara/Enums/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_PositionInitializationMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode' and '/Niagara/Enums/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_PositionInitializationMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode' and '/Niagara/Enums/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_PositionInitializationMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode' and '/Niagara/Enums/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::NewEnumerator4' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SizeScaleMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode' and '/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SpriteRotationMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode' and '/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SpriteRotationMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode' and '/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SpriteRotationMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode' and '/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_SpriteRotationMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode' and '/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSet::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSet.ENiagara_UnsetDirectSet' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSet.ENiagara_UnsetDirectSet'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSet::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSet.ENiagara_UnsetDirectSet' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSet.ENiagara_UnsetDirectSet'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSetRandom::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSetRandom::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UnsetDirectSetRandom::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom' and '/Niagara/Enums/Ribbons/ENiagara_UnsetDirectSetRandom.ENiagara_UnsetDirectSetRandom'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagara_UVFlippingMode::NewEnumerator4' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode' and '/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagaraChannelCorrelation::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation' and '/Niagara/Enums/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagaraChannelCorrelation::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation' and '/Niagara/Enums/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation'
+[2023.05.03-11.03.48:871][  0]LogEnum: Warning: Enum name collision: 'ENiagaraChannelCorrelation::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation' and '/Niagara/Enums/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation'
+[2023.05.03-11.03.48:877][  0]LogEnum: Warning: Enum name collision: 'ENiagaraScaleColorMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraScaleColorMode.ENiagaraScaleColorMode' and '/Niagara/Enums/ENiagaraScaleColorMode.ENiagaraScaleColorMode'
+[2023.05.03-11.03.48:877][  0]LogEnum: Warning: Enum name collision: 'ENiagaraScaleColorMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraScaleColorMode.ENiagaraScaleColorMode' and '/Niagara/Enums/ENiagaraScaleColorMode.ENiagaraScaleColorMode'
+[2023.05.03-11.03.48:877][  0]LogEnum: Warning: Enum name collision: 'ENiagaraScaleColorMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraScaleColorMode.ENiagaraScaleColorMode' and '/Niagara/Enums/ENiagaraScaleColorMode.ENiagaraScaleColorMode'
+[2023.05.03-11.03.48:878][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleSpriteSize::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize' and '/Niagara/Enums/SpriteRenderer/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize'
+[2023.05.03-11.03.48:878][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleSpriteSize::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize' and '/Niagara/Enums/SpriteRenderer/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize'
+[2023.05.03-11.03.48:878][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleSpriteSize::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize' and '/Niagara/Enums/SpriteRenderer/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize'
+[2023.05.03-11.03.48:878][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleSpriteSize::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize' and '/Niagara/Enums/SpriteRenderer/ENiagara_ScaleSpriteSize.ENiagara_ScaleSpriteSize'
+[2023.05.03-11.03.48:879][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AngleInput::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AngleInput.ENiagara_AngleInput' and '/Niagara/Enums/Angles/ENiagara_AngleInput.ENiagara_AngleInput'
+[2023.05.03-11.03.48:879][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AngleInput::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AngleInput.ENiagara_AngleInput' and '/Niagara/Enums/Angles/ENiagara_AngleInput.ENiagara_AngleInput'
+[2023.05.03-11.03.48:879][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AngleInput::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AngleInput.ENiagara_AngleInput' and '/Niagara/Enums/Angles/ENiagara_AngleInput.ENiagara_AngleInput'
+[2023.05.03-11.03.48:882][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:882][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:882][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:882][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:882][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator4' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:882][  0]LogEnum: Warning: Enum name collision: 'ENiagara_RotationMode::NewEnumerator5' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_RotationMode.ENiagara_RotationMode' and '/Niagara/Enums/Transforms/ENiagara_RotationMode.ENiagara_RotationMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AttributeSamplingApplyOutput::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AttributeSamplingApplyOutput.ENiagara_AttributeSamplingApplyOutput' and '/Niagara/Enums/ENiagara_AttributeSamplingApplyOutput.ENiagara_AttributeSamplingApplyOutput'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_AttributeSamplingApplyOutput::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_AttributeSamplingApplyOutput.ENiagara_AttributeSamplingApplyOutput' and '/Niagara/Enums/ENiagara_AttributeSamplingApplyOutput.ENiagara_AttributeSamplingApplyOutput'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_BoxPlaneMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_BoxPlaneMode.ENiagara_BoxPlaneMode' and '/Niagara/Enums/Location/ENiagara_BoxPlaneMode.ENiagara_BoxPlaneMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_BoxPlaneMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_BoxPlaneMode.ENiagara_BoxPlaneMode' and '/Niagara/Enums/Location/ENiagara_BoxPlaneMode.ENiagara_BoxPlaneMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ConeMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ConeMode.ENiagara_ConeMode' and '/Niagara/Enums/Location/ENiagara_ConeMode.ENiagara_ConeMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ConeMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ConeMode.ENiagara_ConeMode' and '/Niagara/Enums/Location/ENiagara_ConeMode.ENiagara_ConeMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_CylinderMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_CylinderMode.ENiagara_CylinderMode' and '/Niagara/Enums/Location/ENiagara_CylinderMode.ENiagara_CylinderMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_CylinderMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_CylinderMode.ENiagara_CylinderMode' and '/Niagara/Enums/Location/ENiagara_CylinderMode.ENiagara_CylinderMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator4' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_LocationShapes::NewEnumerator5' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_LocationShapes.ENiagara_LocationShapes' and '/Niagara/Enums/Location/ENiagara_LocationShapes.ENiagara_LocationShapes'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_OffsetMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_OffsetMode.ENiagara_OffsetMode' and '/Niagara/Enums/Transforms/ENiagara_OffsetMode.ENiagara_OffsetMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_OffsetMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_OffsetMode.ENiagara_OffsetMode' and '/Niagara/Enums/Transforms/ENiagara_OffsetMode.ENiagara_OffsetMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleMode.ENiagara_ScaleMode' and '/Niagara/Enums/Transforms/ENiagara_ScaleMode.ENiagara_ScaleMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_ScaleMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_ScaleMode.ENiagara_ScaleMode' and '/Niagara/Enums/Transforms/ENiagara_ScaleMode.ENiagara_ScaleMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_TransformOrder::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_TransformOrder.ENiagara_TransformOrder' and '/Niagara/Enums/Transforms/ENiagara_TransformOrder.ENiagara_TransformOrder'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_TransformOrder::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_TransformOrder.ENiagara_TransformOrder' and '/Niagara/Enums/Transforms/ENiagara_TransformOrder.ENiagara_TransformOrder'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_TransformType::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_TransformType.ENiagara_TransformType' and '/Niagara/Enums/Transforms/ENiagara_TransformType.ENiagara_TransformType'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagara_TransformType::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagara_TransformType.ENiagara_TransformType' and '/Niagara/Enums/Transforms/ENiagara_TransformType.ENiagara_TransformType'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExpansionMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExpansionMode.ENiagaraExpansionMode' and '/Niagara/Enums/ENiagaraExpansionMode.ENiagaraExpansionMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExpansionMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExpansionMode.ENiagaraExpansionMode' and '/Niagara/Enums/ENiagaraExpansionMode.ENiagaraExpansionMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagaraExpansionMode::NewEnumerator2' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraExpansionMode.ENiagaraExpansionMode' and '/Niagara/Enums/ENiagaraExpansionMode.ENiagaraExpansionMode'
+[2023.05.03-11.03.48:884][  0]LogEnum: Warning: Enum name collision: 'ENiagaraRingDiscMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraRingDiscMode.ENiagaraRingDiscMode' and '/Niagara/Enums/Location/ENiagaraRingDiscMode.ENiagaraRingDiscMode'
+[2023.05.03-11.03.48:885][  0]LogEnum: Warning: Enum name collision: 'ENiagaraRingDiscMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraRingDiscMode.ENiagaraRingDiscMode' and '/Niagara/Enums/Location/ENiagaraRingDiscMode.ENiagaraRingDiscMode'
+[2023.05.03-11.03.48:885][  0]LogEnum: Warning: Enum name collision: 'ENiagaraShapeTorusMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraShapeTorusMode.ENiagaraShapeTorusMode' and '/Niagara/Enums/ENiagaraShapeTorusMode.ENiagaraShapeTorusMode'
+[2023.05.03-11.03.48:885][  0]LogEnum: Warning: Enum name collision: 'ENiagaraShapeTorusMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraShapeTorusMode.ENiagaraShapeTorusMode' and '/Niagara/Enums/ENiagaraShapeTorusMode.ENiagaraShapeTorusMode'
+[2023.05.03-11.03.48:885][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSphereDistributionMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode' and '/Niagara/Enums/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode'
+[2023.05.03-11.03.48:885][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSphereDistributionMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode' and '/Niagara/Enums/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode'
+[2023.05.03-11.03.48:885][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSphereDistributionMode::NewEnumerator3' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode' and '/Niagara/Enums/ENiagaraSphereDistributionMode.ENiagaraSphereDistributionMode'
+[2023.05.03-11.03.48:885][  0]LogEnum: Warning: Enum name collision: 'ENiagaraTorusDistributionMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraTorusDistributionMode.ENiagaraTorusDistributionMode' and '/Niagara/Enums/ENiagaraTorusDistributionMode.ENiagaraTorusDistributionMode'
+[2023.05.03-11.03.48:885][  0]LogEnum: Warning: Enum name collision: 'ENiagaraTorusDistributionMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraTorusDistributionMode.ENiagaraTorusDistributionMode' and '/Niagara/Enums/ENiagaraTorusDistributionMode.ENiagaraTorusDistributionMode'
+[2023.05.03-11.03.48:976][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSystemInactiveMode::NewEnumerator0' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode' and '/Niagara/Enums/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode'
+[2023.05.03-11.03.48:977][  0]LogEnum: Warning: Enum name collision: 'ENiagaraSystemInactiveMode::NewEnumerator1' is in both '/Game/Niagara/NiagaraFunctions/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode' and '/Niagara/Enums/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode'
+[2023.05.03-11.03.50:612][  0]LogWorldPartition: Display: WorldPartition initialize took 3.48 sec
+[2023.05.03-11.03.50:623][  0]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/Effects/SceneFX/JellyDrip.JellyDrip took 2.901112 sec, no shader worker used.
+[2023.05.03-11.03.50:643][  0]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/Effects/SceneFX/WaterDrip.WaterDrip took 2.719686 sec, no shader worker used.
+[2023.05.03-11.03.50:655][  0]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/Effects/SceneFX/Sparks.Sparks took 2.111651 sec, no shader worker used.
+[2023.05.03-11.03.50:666][  0]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NiagaraSystems/Groundfog.Groundfog took 1.629801 sec, no shader worker used.
+[2023.05.03-11.03.50:675][  0]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/Effects/SceneFX/MetalSparks.MetalSparks took 1.496987 sec, no shader worker used.
+[2023.05.03-11.03.50:687][  0]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/NiagaraSystems/DustAir.DustAir took 0.990411 sec, no shader worker used.
+[2023.05.03-11.03.50:692][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.03-11.03.50:704][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.03-11.03.50:705][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.03-11.03.50:705][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.518ms to complete.
+[2023.05.03-11.03.50:705][  0]LogFileHelpers: Loading map 'DefaultMap' took 3.668
+[2023.05.03-11.03.50:725][  0]LogUnrealEdMisc: Total Editor Startup Time, took 17.306
+[2023.05.03-11.03.50:725][  0]LogShaderCompilers: Display: ================================================
+[2023.05.03-11.03.50:725][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.03-11.03.50:725][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2023.05.03-11.03.50:725][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2023.05.03-11.03.50:725][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2023.05.03-11.03.50:725][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.03-11.03.50:725][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.03-11.03.50:725][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.03-11.03.50:725][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.03-11.03.50:725][  0]LogShaderCompilers: Display: ================================================
+[2023.05.03-11.03.50:824][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2023.05.03-11.03.50:835][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-11.03.50:841][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-11.03.50:847][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-11.03.50:853][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-11.03.50:882][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.05.03-11.03.50:882][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.05.03-11.03.50:883][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.05.03-11.03.50:883][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.05.03-11.03.50:884][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.05.03-11.03.50:884][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.05.03-11.03.50:884][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.05.03-11.03.50:884][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.05.03-11.03.50:885][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.05.03-11.03.50:885][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.05.03-11.03.50:886][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.05.03-11.03.50:886][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.05.03-11.03.50:887][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.05.03-11.03.50:887][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.05.03-11.03.50:887][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.05.03-11.03.50:887][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.05.03-11.03.50:889][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.05.03-11.03.50:889][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.05.03-11.03.50:889][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.05.03-11.03.50:889][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2023.05.03-11.03.50:890][  0]LogFeaturePack: Error: Error in Feature pack C:/Program Files (x86)/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2023.05.03-11.03.51:060][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.03-11.03.51:062][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.05.03-11.03.51:066][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.03-11.03.51:067][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.05.03-11.03.51:069][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.05.03-11.03.51:103][  0]LogViewport: Scene viewport resized to 1115x466, mode Windowed.
+[2023.05.03-11.03.52:218][  0]LogViewport: Scene viewport resized to 1115x20, mode Windowed.
+[2023.05.03-11.03.52:236][  0]LogViewport: Scene viewport resized to 20x466, mode Windowed.
+[2023.05.03-11.03.52:397][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.03-11.03.52:417][  0]LogViewport: Scene viewport resized to 20x20, mode Windowed.
+[2023.05.03-11.03.52:456][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.03-11.03.52:547][  0]LogStall: Startup...
+[2023.05.03-11.03.52:549][  0]LogStall: Startup complete.
+[2023.05.03-11.03.52:580][  0]LogLoad: (Engine Initialization) Total time: 19.16 seconds
+[2023.05.03-11.03.52:580][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.05.03-11.03.52:623][  0]LogAssetRegistry: Asset discovery search completed in 12.2772 seconds
+[2023.05.03-11.03.52:656][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2023.05.03-11.03.52:667][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.05.03-11.03.53:878][  2]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.03-11.03.54:165][  3]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/Effects/PlayerFX/Dash.Dash took 3.958364 sec, no shader worker used.
+[2023.05.03-11.03.54:175][  3]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/Effects/PlayerFX/DoubleJump.DoubleJump took 3.917256 sec, no shader worker used.
+[2023.05.03-11.03.55:358][ 75]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/Effects/PlayerFX/Landing.Landing took 5.006001 sec, no shader worker used.
+[2023.05.03-11.03.55:379][ 75]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/Effects/PlayerFX/Walking/Walking1.Walking1 took 4.907669 sec, no shader worker used.
+[2023.05.03-11.03.59:109][298]LogNiagara: Compiling System NiagaraSystem /Game/Niagara/Effects/SceneFX/Debris/Debris.Debris took 10.838132 sec (time since issued), 25.449459 sec (combined shader worker time).
+[2023.05.03-11.04.14:810][202]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.03-11.04.15:049][202]LogD3D12RHI: Warning: Waited for PSO creation for 100.000000ms
+[2023.05.03-11.04.15:068][202]LogD3D12RHI: Warning: Waited for PSO creation for 200.000000ms
+[2023.05.03-11.04.15:269][202]LogD3D12RHI: Warning: Waited for PSO creation for 400.000000ms
+[2023.05.03-11.04.15:668][202]LogD3D12RHI: Warning: Waited for PSO creation for 800.000000ms
+[2023.05.03-11.04.16:468][202]LogD3D12RHI: Warning: Waited for PSO creation for 1600.000000ms
+[2023.05.03-11.04.18:068][202]LogD3D12RHI: Warning: Waited for PSO creation for 3200.000000ms
+[2023.05.03-11.04.21:268][202]LogD3D12RHI: Warning: Waited for PSO creation for 6400.000000ms
+[2023.05.03-11.04.22:467][202]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.03-11.04.22:491][203]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.03-11.04.26:489][609]LogContentBrowser: Attempting asset rename: NewFolder -> Smoke
+[2023.05.03-11.04.26:489][609]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.03-11.05.14:144][ 42]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\TheEn\Downloads\SimpleSmoke-20230503T110153Z-001\SimpleSmoke\T_Clouds_01.tga)
+[2023.05.03-11.05.15:271][ 42]LogTexture: Display: Building textures: /Game/Niagara/Effects/SceneFX/Smoke/T_Clouds_01.T_Clouds_01 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2023.05.03-11.05.15:572][ 42]LogAssetTools: Warning: Failed to import 'C:\Users\TheEn\Downloads\SimpleSmoke-20230503T110153Z-001\SimpleSmoke\T_Clouds_01.uasset'. Unknown extension 'uasset'.
+[2023.05.03-11.05.15:681][ 42]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\TheEn\Downloads\SimpleSmoke-20230503T110153Z-001\SimpleSmoke\T_Clouds_02.tga)
+[2023.05.03-11.05.15:697][ 42]LogTexture: Display: Building textures: /Game/Niagara/Effects/SceneFX/Smoke/T_Clouds_02.T_Clouds_02 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2023.05.03-11.05.15:704][ 42]LogAssetTools: Warning: Failed to import 'C:\Users\TheEn\Downloads\SimpleSmoke-20230503T110153Z-001\SimpleSmoke\T_Clouds_03.uasset'. Unknown extension 'uasset'.
+[2023.05.03-11.05.31:635][900]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.05.03-11.05.31:643][900]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.05.03-11.05.31:653][901]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.05.03-11.05.35:625][363]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Smoke
+[2023.05.03-11.05.35:626][363]LogContentBrowser: End creating deferred item NewMaterial
+[2023.05.03-11.05.39:087][605]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Niagara/Effects/SceneFX/Smoke/M_Smoke.M_Smoke
+[2023.05.03-11.05.39:819][605]LogMaterial: Display: Missing cached shadermap for Preview:M_Smoke in PCD3D_SM5, Default, SM5 (DDC key hash: 007BC96AB26755E923A7638E816DF61553CFB5F6), compiling. 
