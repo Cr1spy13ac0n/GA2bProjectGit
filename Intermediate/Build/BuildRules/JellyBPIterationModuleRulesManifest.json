@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"D:\\Unreal Projects\\GA2bJellyGameGit\\GA2bProjectGit\\Source\\JellyBPIteration\\JellyBPIteration.Build.cs",
-		"D:\\Unreal Projects\\GA2bJellyGameGit\\GA2bProjectGit\\Source\\JellyBPIteration.Target.cs",
-		"D:\\Unreal Projects\\GA2bJellyGameGit\\GA2bProjectGit\\Source\\JellyBPIterationEditor.Target.cs"
-	],
-	"EngineVersion": "5.0.3"
-}
